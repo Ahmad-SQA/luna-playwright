@@ -21,6 +21,7 @@ export class Loginpage {
         await this.page.locator(this.Email_input).fill('user53877+test@mailosaur.net')
         await this.page.locator(this.password_input).fill('w%xg3Yglas@2')
         await this.page.locator(this.SignIn_Button).click()
+        // 
 
     }
 }
